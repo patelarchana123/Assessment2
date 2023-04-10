@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assesment 2</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="button-container">
+        <button type="button" class="status-button">+Status</button>
+       <button type="button" id="show-from-button" class="add-customer-button">+ Add customer</button>
+    </div>
+        <div class="form-container-one">
+            <form action="" class="form" id="form" style="display: none;">
+                <div class="input-container-one">
+                <div class="input-control">
+                    <label for="">NAME <sup>*</sup></label>
+                    <input type="text" id="name" placeholder="Enter Name"onkeyup="validatenameInput() ;checkForm()"  required>
+                    <p id="name-error">Please enter a valid Name.</p>
+                </div>
+                <div class="input-control">
+                    <label for="">DESCRIPTION <sup>*</sup></label>
+                    <input type="text" id="description" placeholder="Enter description" onkeyup="validatedescriptionInput(); checkForm()" required>
+                    <p id="description-error">Please enter a valid description.</p>
+                </div>
+                <div class="input-control">
+                    <label for="">STATUS <sup>*</sup></label>
+                  <select name="Select Status" id="status" onkeyup="validatesatusInput() ; checkForm()" required>
+                    <p id="Status-error">this field is required</p>
+                  <option value="Open">Open</option>
+                  <option value="Error">Error</option>
+               <option value="Success">Success</option>
+               <option value="Inactive">Inactive</option>
+               </select>
+                </div>
+                </div>
+                <div class="input-container-two">
+                <div class="input-control padding" >
+                    <label for="">RATE <sup>*</sup></label>
+                    <input type="text" id="rate" placeholder="Enter Rate"onkeyup="validateRateInput(); checkForm()" required>
+                    <p id="rate-error">Please enter a valid Rate.</p>
+                </div>
+                <div class="input-control padding1">
+                    <label for="">BALANCE <sup>*</sup></label>
+                    <input type="text" id="balance" placeholder="Enter balance"onkeyup="validateBalanceInput(); checkForm()" required>
+                    <p id="balance-error">Please enter a valid balance.</p>
+                </div>
+                <div class="input-control padding2">
+                    <label for="">DEPOSIT <sup>*</sup></label>
+                    <input type="text" id="deposit" placeholder="Enter deposit"onkeyup="validatedepositInput(); checkForm()" required>
+                    <p id="deposit-error">Please enter a valid deposit.</p>
+                </div>
+            </div>
+                <div class="button">
+                    <button type="reset" id="cancelbutton">cancel</button>
+                    <button type="submit" id="addbutton"onclick="addFromData(); updateData();change()" disabled>Save</button>
+                    <!-- <button type="button"  id="data" >Update Customer</button> -->
+                </div>
+            </form>
+    <table id="table" class="table"></table>
+    <script src="index.js"></script>
+</div>
+</body>
+</html>

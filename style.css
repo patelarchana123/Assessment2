@@ -1,0 +1,160 @@
+body {
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+
+input, select {
+    width: 300px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+label{
+    color:#5a5d62;
+}
+::placeholder {
+    color: #b7bbbe;
+}  
+
+.input-container-one {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.input-container-two {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.input-control {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.status-button {
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+    color: blue;
+    border: 1px solid #ececec;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color:#fefffa;
+}
+
+.add-customer-button {
+    margin: 10px;
+    padding: 5px 20px 5px 20px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color:#719af6;
+}
+
+sup {
+    color: red;
+}
+
+p {
+    display: none;
+    color: red;
+}
+
+.button {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    background-color: #ecf0fb;
+    padding: 12px;
+}
+
+#cancelbutton {
+    padding: 5px 10px 5px 10px;
+    color: white;
+    background-color:#5f5f5d;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#addbutton{
+    padding: 5px 10px 5px 10px;
+    color: white;
+    background-color:#256bcb;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#data{
+    padding: 5px 10px 5px 10px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    overflow-x: auto;
+}
+
+.table {
+    border-collapse: collapse;
+    border-radius: 4px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    background-color: white;
+}
+
+.table td {
+    text-align: center;
+    padding: 12px;
+    color:#4a4a4a;
+}
+
+.table thead {
+    text-align: center;
+    padding: 12px;
+    color:#707078;
+}
+
+.table button {
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.table .edit {
+    background-color: rgb(28, 172, 59);
+}
+
+.table .delete {
+    background-color: rgb(233, 14, 14);
+}
+
+tr:nth-child(even) {
+    background-color: #ecf0fb;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}

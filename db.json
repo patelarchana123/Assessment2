@@ -1,0 +1,58 @@
+{
+  "Customer": [
+    {
+      "id": 1,
+      "name": "Ann Culhane",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, possimus.",
+      "status": "Open",
+      "rate": "$70,00",
+      "balance": "-$270.00",
+      "deposit": "$500.00"
+    },
+    {
+      "name": "Ann Culhane",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, possimus.",
+      "status": "Error",
+      "rate": "$70.00",
+      "balance": "-$270.00",
+      "deposit": "$500.00",
+      "id": 2
+    },
+    {
+      "name": "Ann Culhane",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, possimus.",
+      "status": "Success",
+      "rate": "$70,00",
+      "balance": "-$270.00",
+      "deposit": "$500.00",
+      "id": 3
+    },
+    {
+      "name": "Ann Culhane",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, possimus.",
+      "status": "Open",
+      "rate": "$70,00",
+      "balance": "-$270.00",
+      "deposit": "$500.00",
+      "id": 4
+    },
+    {
+      "name": "Ann Culhane",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, possimus.",
+      "status": "Inactive",
+      "rate": "$70,00",
+      "balance": "-$270.00",
+      "deposit": "$500.00",
+      "id": 5
+    },
+    {
+      "name": "Ann Culhane",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, possimus.",
+      "status": "Open",
+      "rate": "$70,00",
+      "balance": "-$270.00",
+      "deposit": "$500.00",
+      "id": 6
+    }
+  ]
+}
